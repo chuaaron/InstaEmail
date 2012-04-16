@@ -10,6 +10,8 @@
 
 @implementation ACFViewController
 
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -21,6 +23,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    activities_ = [[NSArray alloc] initWithObjects:  @"sleeping", @"eating", @"working", @"thinking", @"crying", @"begging", @"leaving", @"shopping", @"hello worlding", nil];
+    feelings_ = [[NSArray alloc] initWithObjects: @"awesome", @"sad", @"happy", @"ambivalent", @"nauseous", @"psyched", @"confused", @"hopeful", @"anxious", nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

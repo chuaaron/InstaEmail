@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ACFViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+{
+    NSArray* activities_;
+    NSArray* feelings_;
+}
 
 @end
