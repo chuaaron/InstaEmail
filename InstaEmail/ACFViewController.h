@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface ACFViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface ACFViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, MFMailComposeViewControllerDelegate>
 
 @property (retain, nonatomic) NSArray* activities;
 @property (retain, nonatomic) NSArray* feelings;
+@property (retain, nonatomic) IBOutlet UIPickerView* emailPicker;
+
+- (IBAction)sendButtonTapped:(id)sender;
 
 @end
