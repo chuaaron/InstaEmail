@@ -37,20 +37,20 @@
 		E629CBAF153BC19F00B083FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E629CBB1153BC19F00B083FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E629CBB3153BC19F00B083FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E629CBB7153BC19F00B083FB /* InstaEmail-Info.plist */ = {isa = PBXFileReference; path = "InstaEmail-Info.plist"; sourceTree = "<group>"; };
+		E629CBB7153BC19F00B083FB /* InstaEmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaEmail-Info.plist"; sourceTree = "<group>"; };
 		E629CBB9153BC19F00B083FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E629CBBB153BC19F00B083FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E629CBBD153BC19F00B083FB /* InstaEmail-Prefix.pch */ = {isa = PBXFileReference; path = "InstaEmail-Prefix.pch"; sourceTree = "<group>"; };
-		E629CBBE153BC19F00B083FB /* ACFAppDelegate.h */ = {isa = PBXFileReference; path = ACFAppDelegate.h; sourceTree = "<group>"; };
+		E629CBBD153BC19F00B083FB /* InstaEmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaEmail-Prefix.pch"; sourceTree = "<group>"; };
+		E629CBBE153BC19F00B083FB /* ACFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACFAppDelegate.h; sourceTree = "<group>"; };
 		E629CBBF153BC19F00B083FB /* ACFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACFAppDelegate.m; sourceTree = "<group>"; };
-		E629CBC1153BC19F00B083FB /* ACFViewController.h */ = {isa = PBXFileReference; path = ACFViewController.h; sourceTree = "<group>"; };
+		E629CBC1153BC19F00B083FB /* ACFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACFViewController.h; sourceTree = "<group>"; };
 		E629CBC2153BC19F00B083FB /* ACFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACFViewController.m; sourceTree = "<group>"; };
 		E629CBC5153BC19F00B083FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACFViewController.xib; sourceTree = "<group>"; };
 		E629CBCC153BC19F00B083FB /* InstaEmailTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaEmailTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E629CBCD153BC19F00B083FB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E629CBD5153BC19F00B083FB /* InstaEmailTests-Info.plist */ = {isa = PBXFileReference; path = "InstaEmailTests-Info.plist"; sourceTree = "<group>"; };
+		E629CBD5153BC19F00B083FB /* InstaEmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaEmailTests-Info.plist"; sourceTree = "<group>"; };
 		E629CBD7153BC19F00B083FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E629CBD9153BC19F00B083FB /* InstaEmailTests.h */ = {isa = PBXFileReference; path = InstaEmailTests.h; sourceTree = "<group>"; };
+		E629CBD9153BC19F00B083FB /* InstaEmailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaEmailTests.h; sourceTree = "<group>"; };
 		E629CBDA153BC19F00B083FB /* InstaEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaEmailTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
