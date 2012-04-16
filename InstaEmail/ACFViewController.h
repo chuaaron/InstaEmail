@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ACFViewController : UIViewController
+@interface ACFViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @end
