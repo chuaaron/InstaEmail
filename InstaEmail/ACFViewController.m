@@ -10,7 +10,8 @@
 
 @implementation ACFViewController
 
-
+@synthesize activities=activities_;
+@synthesize feelings=feelings_;
 
 - (void)didReceiveMemoryWarning
 {
