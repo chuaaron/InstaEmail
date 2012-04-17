@@ -14,7 +14,9 @@
 @property (retain, nonatomic) NSArray* activities;
 @property (retain, nonatomic) NSArray* feelings;
 @property (retain, nonatomic) IBOutlet UIPickerView* emailPicker;
+@property (retain, nonatomic) IBOutlet UITextField* notesField;
 
 - (IBAction)sendButtonTapped:(id)sender;
+- (IBAction)textFieldDoneEditing:(id)sender;
 
 @end

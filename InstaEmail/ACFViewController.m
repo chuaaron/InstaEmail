@@ -13,6 +13,7 @@
 @synthesize activities = activities_;
 @synthesize feelings = feelings_;
 @synthesize emailPicker = emailPicker_;
+@synthesize notesField = notesField_;
 
 #pragma mark - Actions
 - (IBAction)sendButtonTapped:(id)sender
@@ -30,6 +31,11 @@
         NSLog(@"Sorry, you need to setup mail first!");
     }
     NSLog(@"Dood, I'm tapped!");
+}
+
+- (IBAction)textFieldDoneEditing:(id)sender
+{
+    [sender resignFirstResponder];
 }
 
 #pragma mark Mail composer delegate method
